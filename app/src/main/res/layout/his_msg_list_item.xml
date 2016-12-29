@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chat_icon"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@mipmap/jty"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/chat_icon"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+    <TextView
+        android:id="@+id/chat_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="计算机132"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/chat_icon"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recently_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男人变态有什么错误："/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/recently_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:text="20:00"/>
+
+</RelativeLayout>

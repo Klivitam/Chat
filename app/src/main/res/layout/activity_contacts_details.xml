@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:background="#f5f5f5"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar2"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/contacts_icon"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@mipmap/jty"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/contacts_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:text="联系人"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/contacts_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:text="+86 139 6761 7199"/>
+        <ImageView
+            android:id="@+id/take_phone"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/take_msg"
+            android:src="@mipmap/take_phone"/>
+        <ImageView
+            android:id="@+id/take_msg"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/take_msg"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:text="Q    Q"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:editable="false"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:text="点击修改"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:text="Email"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:text="点击修改"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:text="Q    Q"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:editable="false"
+            android:text="点击修改"/>
+
+    </LinearLayout>
+
+</LinearLayout>

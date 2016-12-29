@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 设置边框的大小和颜色 -->
+        <stroke android:width="3dip" android:color="#fff" />
+         
+        <!-- 设置矩形内的颜色,此处为透明色 -->
+        <solid android:color="@android:color/transparent"/>
+         
+        <!-- 定义圆角弧度 -->
+    <corners
+    android:bottomLeftRadius="8dp"
+    android:bottomRightRadius="8dp"
+    android:topLeftRadius="8dp"
+    android:topRightRadius="8dp"/>
+
+</shape>
